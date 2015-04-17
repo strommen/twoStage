@@ -89,12 +89,7 @@ var twoStage = function () {
 
 		requestDynamicContent: function () {
 			var request = new XMLHttpRequest();
-			var url = window.location.href;
-			if (window.location.search) {
-				url += "&_=";
-			} else {
-				url += "?_=";
-			}
+			var url = "/_" + location.pathname + location.search;
 			request.open('GET', url, true);
 
 			request.onreadystatechange = function () {
