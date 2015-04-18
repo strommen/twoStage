@@ -1,8 +1,8 @@
-## [TwoStage](http://joestrommen.com/twoStage)
+## [TwoStage](http://www.twostage.io)
 
 TwoStage is a client-server technique to make dynamic web pages publicly cacheable.  This allows them to load extremely fast by serving them from a CDN or a caching reverse proxy.
 
-More information is available at [joestrommen.com/twoStage](http://www.joestrommen.com/twoStage).
+More information is available at [twostage.io](http://www.twostage.io).
 
 ### Using TwoStage
 
